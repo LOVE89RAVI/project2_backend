@@ -2,7 +2,7 @@ package lalli.niit.Dao;
 
 import java.util.List;
 
-import lalli.niit.models.BlogCommentDao;
+import lalli.niit.models.BlogComment;
 import lalli.niit.models.BlogPost;
 import lalli.niit.models.User;
 

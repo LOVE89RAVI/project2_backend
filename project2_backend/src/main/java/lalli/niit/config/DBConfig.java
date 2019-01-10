@@ -30,8 +30,8 @@ public class DBConfig {
 	    BasicDataSource dataSource = new BasicDataSource();
 	    dataSource.setDriverClassName("oracle.jdbc.OracleDriver");
 	    dataSource.setUrl("jdbc:oracle:thin:@localhost:1521:XE");
-	    dataSource.setUsername("raviteja");
-	    dataSource.setPassword("raviteja1993");
+	    dataSource.setUsername("system");
+	    dataSource.setPassword("system");
 	    return dataSource;	    
 	}
   @Bean

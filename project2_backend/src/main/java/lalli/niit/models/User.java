@@ -1,24 +1,27 @@
 package lalli.niit.models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="user_s190124")
+@Table(name="USER_S191174100164")
 public class User {
 @Id
 private String email;
- 	@Column(nullable=false)
- 	private String password;
- 	@Column(nullable=false)
- 	private String firstname;
- 	private String lastname;
- 	private String phonenumber;
- 	@Column(nullable=false)
- 	private String role;
- 	@Column(name="onlinestatus")
- 	private boolean online;//map this property with column named onlinestatus
+@Column(nullable=false)
+private String password;
+@Column(nullable=false)
+private String firstname;
+private String lastname;
+private String phonenumber;
+@Column(nullable=false)
+private String role;
+@Column(name="onlinestatus")
+private boolean online;
 public String getEmail() {
 	return email;
 }
@@ -61,26 +64,5 @@ public boolean isOnline() {
 public void setOnline(boolean online) {
 	this.online = online;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -33,7 +33,7 @@ private SessionFactory sessionFactory;
 	return comments;
 	}
 	@Transactional
-	@Override
+	
     public void updateBlogComment(BlogComment blogComment)
     {
     	/*final Session session = this.sessionFactory.getCurrentSession();
